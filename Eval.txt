@@ -1,0 +1,7 @@
+The Eval function of the non terminal nodes are calculated as follows:
+
+	 eval function is calculated as following;
+        
+(4-in-rows of min^4 + 3-in-rows of min^3 + 2-in-rows of min^2) -(4-in-rows of max^4 + 3-in-rows of max^3 + 2-in-rows of max^2)
+
+Explanation: the 4-in-rows are raised to the power of 4, similarly, 3-in-rows are raised to the power of 3 and 2-in-rows are raised to the power of 2 and are added together. It is  subtracted from the eval of the min player 
